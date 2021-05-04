@@ -5,11 +5,11 @@
 // 6 9 1
 
 // brute force solution:
-// index-> 1 2 3  4  5 6 7 8 9 10
-//       	[0,0,0, 0, 0,0,0,0,0, 0]
-//       	[3,3,3, 3, 3,0,0,0,0, 0]
-//       	[3,3,3,10,10,7,7,7,0, 0]
-//       	[3,3,3,10,10,8,8,8,1, 0]
+//  1 2 3  4  5 6 7 8 9 10
+// [0,0,0, 0, 0,0,0,0,0, 0]
+// [3,3,3, 3, 3,0,0,0,0, 0]
+// [3,3,3,10,10,7,7,7,0, 0]
+// [3,3,3,10,10,8,8,8,1, 0]
 
 // optimized solution:
 // 0 1 2 3 4 5  6 7 8  9 10 11 - index
@@ -45,4 +45,4 @@ function arrayManipulation(n, queries) {
   return max;
 }
 
-module.exports = arrayManipulation;
+export default arrayManipulation;

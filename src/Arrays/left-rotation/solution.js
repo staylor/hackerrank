@@ -9,4 +9,4 @@ function rotLeft(a, d) {
   return a;
 }
 
-module.exports = rotLeft;
+export default rotLeft;

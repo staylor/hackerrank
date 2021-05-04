@@ -18,4 +18,4 @@ function minimumSwaps(arr) {
   return swaps;
 }
 
-module.exports = minimumSwaps;
+export default minimumSwaps;

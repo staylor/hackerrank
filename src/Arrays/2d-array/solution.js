@@ -18,4 +18,4 @@ function hourglassSum(arr) {
   return max;
 }
 
-module.exports = hourglassSum;
+export default hourglassSum;

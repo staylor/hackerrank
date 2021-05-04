@@ -30,4 +30,4 @@ function minimumBribes(q) {
   return total;
 }
 
-module.exports = minimumBribes;
+export default minimumBribes;
